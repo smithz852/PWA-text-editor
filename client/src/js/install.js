@@ -11,7 +11,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 butInstall.addEventListener('click', async () => {
   const jatePrompt = window.deferredPrompt;
 
-  if (!prompt) {
+  if (!jatePrompt) {
     return;
   }
 
